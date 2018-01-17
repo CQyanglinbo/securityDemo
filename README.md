@@ -2,7 +2,8 @@
 ## 主要技术
    SpringBoot+SpringSecurity+Thymeleaf+Jpa+mysql
 ## 参考
-## springboot-SpringSecurity1  
+### 作者的github https://github.com/527515025
+## springboot-SpringSecurity1  
 
 *  博客 springBoot+springSecurity 数据库动态管理用户、角色、权限（二）   地址：http://blog.csdn.net/u012373815/article/details/54633046
 
