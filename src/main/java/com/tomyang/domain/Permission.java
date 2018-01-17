@@ -19,7 +19,7 @@ public class Permission {
 
     @Id
     @GeneratedValue
-    private int id;
+    private Integer id;
     //权限名称
     private String name;
 
@@ -30,15 +30,15 @@ public class Permission {
     private String url;
 
     //父节点id
-    private int pid;
+    private Integer pid;
 
-    public Permission(String name, String descritpion, String url, int pid) {
+    public Permission() {
+    }
+
+    public Permission(String name, String descritpion, String url, Integer pid) {
         this.name = name;
         this.descritpion = descritpion;
         this.url = url;
         this.pid = pid;
-    }
-
-    public Permission() {
     }
 }

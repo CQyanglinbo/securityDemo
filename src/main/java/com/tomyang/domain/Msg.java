@@ -9,7 +9,6 @@ import javax.persistence.Entity;
  * @author yc
  * @date 2018/1/16
  */
-@Entity
 @Data
 public class Msg {
     private String title;
