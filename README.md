@@ -1,3 +1,3 @@
 # securityDemo
-## 主要内容
-   SpringBoot+SpringSecurity+Thymeleaf+Jpa+mysql
+## 主要技术
+   SpringBoot+SpringSecurity+Thymeleaf+Jpa+mysql
