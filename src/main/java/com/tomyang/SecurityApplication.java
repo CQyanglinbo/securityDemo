@@ -22,6 +22,11 @@ public class SecurityApplication extends SpringBootServletInitializer {
 		SpringApplication.run(SecurityApplication.class, args);
 	}
 
+	/**
+	 * 打成war
+	 * @param builder
+	 * @return
+	 */
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
 		return builder.sources(SecurityApplication.class);
