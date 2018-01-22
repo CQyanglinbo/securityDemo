@@ -1,6 +1,8 @@
 package com.tomyang.controller;
 
 import com.tomyang.domain.Msg;
+import com.tomyang.utils.ResultEnum;
+import com.tomyang.utils.StutasCode;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,7 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
- * Created by yangyibo on 17/1/18.
+ * 主控制类
+ * @author yc
+ * @date 2018/1/18
  */
 @RestController
 public class HomeController {
